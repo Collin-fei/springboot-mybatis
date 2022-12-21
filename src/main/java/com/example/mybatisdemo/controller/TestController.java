@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
     @Autowired
     private ActivityMapper activityMapper;
+
     @RequestMapping("/test")
     @ResponseBody
     public Activity test() {

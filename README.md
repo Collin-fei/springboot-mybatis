@@ -1,0 +1,2 @@
+# springboot-mybatis
+springboot整合mybatis自动生成mapper和entity

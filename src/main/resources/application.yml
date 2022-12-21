@@ -25,3 +25,10 @@ mybatis:
     #  配置model包路径
     type-aliases-package: "com.example.mybatisdemo.entity.*"
 
+#pagehelper分页插件配置
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+

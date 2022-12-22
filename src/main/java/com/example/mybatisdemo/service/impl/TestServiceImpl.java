@@ -20,6 +20,7 @@ import java.util.List;
 public class TestServiceImpl implements TestService {
     @Autowired
     private ActivityMapper activityMapper;
+
     @Override
     public List<Activity> selectByExample(ActivityExample example) {
         PageHelper.startPage(1,10);
